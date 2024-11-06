@@ -19,7 +19,7 @@ public class FVCalc {
 			i++;
 			
 		}
-		System.out.println("After " + year +" years, $"+ money+"25" + " saved at " + prc + "% will yield $" + (int)ans);
-		//After 2 years, $100 saved at 10.0% will yield $121
+		System.out.println("After " + year +" years, a $"+ money+ " saved at " + prc + "% will yield $" + (int)ans);
+		//After 30 years, a $210 saved at 5.0%25 will yield $907%
 	}
 }
