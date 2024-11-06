@@ -17,11 +17,11 @@ public class TimeFormat {
 		{
 			if(minutes<10)
 				{
-					System.err.println(hours+":"+"0"+minutes+" AM");
+					System.err.println(" "+hours+":"+"0"+minutes+" AM");
 				}
 				else
 				{
-					System.err.println(hours+":"+minutes+" AM");
+					System.err.println(" "+hours+":"+minutes+" AM");
 				}
 		}
 		else
