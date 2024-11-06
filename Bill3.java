@@ -11,7 +11,7 @@ public class Bill3 {
 		ans = Math.ceil(ans);
 		
 
-		System.out.println( "Dear " + name3+" " +name2 + " and " + name1 + " pay " + ans + " Shekels each.");	  
+		System.out.println( "Dear " + name3+", " +name2 + ", and " + name1 + ": pay " + ans + " Shekels each");	  
 		
 	}
 }
