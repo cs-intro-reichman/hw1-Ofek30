@@ -10,10 +10,10 @@ public class Ascend {
 		System.err.println((int)a+" "+(int)b+" "+(int)c);
 		double max,mid,min;
 		max=Math.max(a, b);
-		mid=Math.min(a, b);
-		max=Math.max(max, c);
-		min=Math.min(mid,c);
-		mid=Math.max(mid,c);
+		min=Math.min(a, b);
+		max=Math.max(max,c);
+		min=Math.min(min, c);
+		mid=a+b+c-min-max;
 		System.err.println((int)min+" "+(int)mid+" "+(int)max);
 
 
